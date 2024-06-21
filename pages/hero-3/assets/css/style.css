@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Basic';
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/hero2-bg.jpg);
+    background-size: 70 vh, cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: darkred;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: calc(100vh - 132px);
+    background-position: top, center;
+    background-image: url(../img/hero2.png);
+    background-size: 80vh, cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20vh;
+}
+
+.content-intro {
+    margin-left: 10rem;
+}
+
+.content-intro h1 {
+    font-size: 96px;
+    line-height: 106px;
+    color: white;
+    font-weight: 600;
+}
+
+.content-intro h3 {
+    font-size: 53px;
+    line-height: 67px;
+    color: white;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.card-container {
+    flex-direction: column;
+}
+
+.card1 {
+    padding-bottom: 2rem;
+}
+
+.card1 h2 {
+    color: white;
+    font-size: 26px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.card1 p {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 2rem;
+    border: 4px solid orangered;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 15%;
+    width: fit-content;
+}
+
+.card2 {
+    padding-bottom: 2rem;
+}
+
+.card2 h2 {
+    color: white;
+    font-size: 26px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.card2 p {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 2rem;
+    border: 4px solid orangered;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 15%;
+    width: fit-content;
+}
