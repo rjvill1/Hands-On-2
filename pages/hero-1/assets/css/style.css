@@ -57,9 +57,9 @@
 
 .content {
     width: 100%;
-    height: calc(100vh - 128px) auto;
+    height: calc(100vh - 132px);
     background-position: top, center;
-    background-image: url(../img/hero1.png);
+    background-image: url(../img/hero-1.png);
     background-size: 80vh, cover;
     background-repeat: no-repeat;
     display: flex;
