@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Create 5 different hero pages. Create a gallery page consists of 5 different static cards, and 5 different animated cards
 </div>
 
 <br />
@@ -117,3 +117,4 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|16 | MAKING A HERO SECTION WITH HTML | 2023 | Learn HTML and CSS Full Course for Beginners|Learn how to put a hero image and cards|https://www.youtube.com/watch?v=XDGig-nJUg8&list=PLZYjZa_d4r5EhPBG0ZepxbhSiLXJmjsUq&index=3|
