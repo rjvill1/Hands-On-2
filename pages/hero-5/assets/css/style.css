@@ -149,7 +149,6 @@
     border: 4px solid rgb(3, 7, 85);
     padding: 20px;
     background-color: rgb(1, 1, 32);
-    border-radius: 15%;
     width: fit-content;
 }
 
@@ -188,6 +187,5 @@
     border: 4px solid rgb(3, 7, 85);
     padding: 20px;
     background-color: rgb(1, 1, 32);
-    border-radius: 15%;
     width: fit-content;
 }
