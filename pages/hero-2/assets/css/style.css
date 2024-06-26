@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Basic';
+    box-sizing: border-box;
 }
 
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/hero2-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(84, 21, 2, 0.75)), url(../img/hero2-bg.jpg);
     background-size: 70 vh, cover;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -58,24 +59,36 @@
 .content {
     width: 100%;
     height: calc(100vh - 132px);
-    background-position: top, center;
-    background-image: url(../img/hero2.png);
-    background-size: 80vh, cover;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 20vh;
 }
 
+.hero-pic {
+    border-radius: 50%;
+}
+
+.hero-pic img{
+    display: flex;
+    width: 172%;
+    background-image: url(../img/hero2-img-bg.png);
+    background-size: 60dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .content-intro {
-    margin-left: 10rem;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15%;
 }
 
 .content-intro h1 {
     font-size: 96px;
     line-height: 106px;
-    color: white;
+    padding: 10px 20px;
+    color: black;
     font-weight: 600;
     font-family: "Audiowide", sans-serif;
 }
@@ -90,25 +103,22 @@
     padding: 10px 20px;
     width: fit-content;
     font-family: "Audiowide", sans-serif;
+    border-radius: 15%;
 }
 
 .card-container {
     flex-direction: column;
+    margin-right: 3rem;
 }
 
 .card1 {
-    padding-bottom: 2rem;
+    padding-bottom: .5rem;
 }
 
-.card1 h2 {
-    font-family: "Audiowide", sans-serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
+.card1 img {
+    width: 35%;
     margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
+    border-radius: 15%;
 }
 
 .card1 p {
@@ -126,18 +136,13 @@
 }
 
 .card2 {
-    padding-bottom: 2rem;
+    padding-bottom: .5rem;
 }
 
-.card2 h2 {
-    font-family: "Audiowide", sans-serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
+.card2 img {
+    width: 35%;
     margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
+    border-radius: 15%;
 }
 
 .card2 p {

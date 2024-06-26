@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/hero1-bg.png);
+    background-image: linear-gradient(rgba(98, 98, 98, 0.75), rgba(140, 62, 2, 0.75)), url(../img/hero1-bg.png);
     background-size: 70 vh, cover;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -85,9 +85,9 @@
     color: white;
     font-weight: 600;
     display: block;
-    background-color: black;
-    padding: 10px 20px;
-    width: fit-content;
+    margin-left: 2rem;
+    border-left: 4px solid rgb(255, 0, 255);
+    padding-left: 20px;
 }
 
 .card-container {

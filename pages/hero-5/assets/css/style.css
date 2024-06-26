@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/hero5-bg.jpg);
+    background-image: linear-gradient(rgba(13, 0, 255, 0.75), rgba(17, 0, 253, 0.75)), url(../img/hero5-bg.jpg);
     background-size: 70 vh, cover;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -58,21 +58,36 @@
 .content {
     width: 100%;
     height: calc(100vh - 132px);
-    background-position: top, center;
-    background-image: url(../img/hero-5.png);
-    background-size: 80vh, cover;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 20vh;
 }
 
+.hero-pic img{
+    filter: drop-shadow(30px 10px 4px black);
+    background-color: rgb(1, 1, 32);
+    margin-left: 1.5rem;
+    align-self: flex-start;
+    object-fit: none;
+    object-position: 50% -10%;
+    width: 80%;
+    position: relative;
+    border-radius: 0;
+     -moz-border-radius: 0;
+     -webkit-border-radius: 0;
+     border: 4px solid rgb(3, 7, 85);
+}
+
 .content-intro {
-    margin-left: 10rem;
+    filter: drop-shadow(30px 10px 4px black);
+    margin-left: 2rem;
 }
 
 .content-intro h1 {
+    border: 4px solid rgb(3, 7, 85);
+    background-color: rgb(1, 1, 32);
+    padding: 10px 20px;
     font-family: "Tangerine", serif;
     font-size: 96px;
     line-height: 106px;
@@ -88,7 +103,8 @@
     color: white;
     font-weight: 600;
     display: block;
-    background-color: black;
+    border: 4px solid rgb(3, 7, 85);
+    background-color: rgb(1, 1, 32);
     padding: 10px 20px;
     width: fit-content;
 }
@@ -102,7 +118,16 @@
     padding-bottom: 2rem;
 }
 
+.h5-card1 {
+    width: 15%;
+    margin-left: 2rem;
+    z-index: -1;
+    top: -10px;
+    filter: drop-shadow(30px 10px 4px #120c35);
+}
+
 .card1 h2 {
+    filter: drop-shadow(30px 10px 4px black);
     font-family: "Tangerine", serif;
     color: white;
     font-size: 26px;
@@ -114,6 +139,7 @@
 }
 
 .card1 p {
+    filter: drop-shadow(30px 10px 4px black);
     font-family: "Tangerine", serif;
     color: white;
     font-size: 18px;
@@ -131,7 +157,16 @@
     padding-bottom: 2rem;
 }
 
+.h5-card2 {
+    width: 25%;
+    margin-left: 2rem;
+    z-index: -1;
+    top: -10px;
+    filter: drop-shadow(30px 10px 4px #8b038b);
+}
+
 .card2 h2 {
+    filter: drop-shadow(30px 10px 4px black);
     font-family: "Tangerine", serif;
     color: white;
     font-size: 26px;
@@ -143,6 +178,7 @@
 }
 
 .card2 p {
+    filter: drop-shadow(30px 10px 4px black);
     font-family: "Tangerine", serif;
     color: white;
     font-size: 18px;
