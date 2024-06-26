@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/rjvill1/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="../WD-Hands-On-2/assets/img/readme-icon.png"
+    <img src="./assets/img/readme-icon.png"
      alt="PRX" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
