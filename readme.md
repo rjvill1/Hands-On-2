@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/rjvill1/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/readme_icon.png" alt="PRX" width="130" height="100">
+    <img src="./assets/img/readme-icon.png" alt="PRX" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Hands-On 2</h3>
@@ -57,20 +57,14 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This is for the Hands-on 2 Activity where we would create 5 hero pages with card/s in it, and create a card gallery for the cards using HTML and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Cool Transitions
+- Interactive
 
 ### Technology
 <!-- TODO: List of Technology Used -->
