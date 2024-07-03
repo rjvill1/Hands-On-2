@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 233vh, auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/gallery-bg.png);
+    background-color: black;
     background-size: 320vh, cover;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -56,11 +56,35 @@
 }
 
 .card-container {
+    display: flex;
     flex-direction: column;
 }
 
+.static {
+    background-color: white;
+}
+
+.static h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.animated {
+    background-color: white;
+    color: black;
+}
+
+.animated h1 {
+    display: flex;
+    justify-content: center;
+}
+
 .card1 {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 2rem;
+    justify-content: center;
 }
 
 .card1 h2 {
@@ -114,6 +138,11 @@
     font-weight: 600;
 }
 
+.card2 h1 {
+    color: white;
+    padding: 0 20rem;
+}
+
 .card3 h2 {
     font-family: "Audiowide", sans-serif;
     color: white;
@@ -149,6 +178,11 @@
     width: 15%;
     margin-left: 2rem;
     border-radius: 15%;
+}
+
+.card4 h1 {
+    color: white;
+    padding: 0 20rem;
 }
 
 .card4 h2 {
@@ -207,6 +241,11 @@
     width: fit-content;
 }
 
+.card6 h1 {
+    color: white;
+    padding: 0 20rem;
+}
+
 .card6 h2 {
     font-family: "Sofia", sans-serif;
     color: white;
@@ -261,6 +300,11 @@
     width: fit-content;
 }
 
+.card8 h1 {
+    color: white;
+    padding: 0 20rem;
+}
+
 .card8 h2 {
     font-family: "Lobster", Sans-serif;
     color: white;
@@ -281,9 +325,13 @@
     margin-left: 2rem;
     border: 4px solid orangered;
     padding: 20px;
-    
     border-radius: 15%;
     width: fit-content;
+}
+
+.card8 p:hover {
+    border-radius: 0;
+    transition: 0.5s;
 }
 
 .card8 p:hover:active{
@@ -333,6 +381,11 @@
     filter: drop-shadow(30px 10px 4px #8b038b);
 }
 
+.card-10 h1 {
+    color: white;
+    padding: 0 20rem;
+}
+
 .card-10 h2 {
     font-family: "Tangerine", serif;
     color: white;
@@ -358,6 +411,6 @@
 }
 
 .card-10 p:active {
-    filter: drop-shadow(30px 10px 4px black);
+    filter: drop-shadow(30px 10px 4px rgb(1, 1, 32));
     transition: 0.5s;
 }
