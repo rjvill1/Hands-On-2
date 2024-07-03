@@ -83,7 +83,7 @@
 .card1 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2rem;
+    padding: 2rem;
     justify-content: center;
 }
 
@@ -108,7 +108,10 @@
 }
 
 .card2 {
-    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card2 h2 {
@@ -143,6 +146,13 @@
     padding: 0 20rem;
 }
 
+.card3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+}
+
 .card3 h2 {
     font-family: "Audiowide", sans-serif;
     color: white;
@@ -172,6 +182,13 @@
     background-color: darkblue;
     border-radius: 15%;
     width: fit-content;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card4 img {
@@ -216,6 +233,13 @@
     color: rgb(0, 0, 0);
 }
 
+.card5 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+}
+
 .card5 h2 {
     font-family: "Sofia", sans-serif;
     color: white;
@@ -239,6 +263,13 @@
     background-color: rgb(249, 249, 249);
     border-radius: 15%;
     width: fit-content;
+}
+
+.card6 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card6 h1 {
@@ -276,6 +307,13 @@
     font-size: 22px;
 }
 
+.card7 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+}
+
 .card7 h2 {
     font-family: "Lobster", Sans-serif;
     color: white;
@@ -298,6 +336,13 @@
     padding: 20px;
     border-radius: 15%;
     width: fit-content;
+}
+
+.card8 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card8 h1 {
@@ -344,9 +389,15 @@
 .h5-card1 {
     width: 15%;
     margin-left: 2rem;
-    z-index: -1;
     top: -10px;
     filter: drop-shadow(30px 10px 4px #120c35);
+}
+
+.card9 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card9 h2 {
@@ -376,9 +427,15 @@
 .h5-card2 {
     width: 25%;
     margin-left: 2rem;
-    z-index: -1;
     top: -10px;
     filter: drop-shadow(30px 10px 4px #8b038b);
+}
+
+.card-10 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .card-10 h1 {
@@ -413,4 +470,8 @@
 .card-10 p:active {
     filter: drop-shadow(30px 10px 4px rgb(1, 1, 32));
     transition: 0.5s;
+}
+
+.border {
+    background-color: white;
 }
