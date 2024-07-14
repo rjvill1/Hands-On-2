@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Basic';
+    text-decoration: 0;
 }
 
 .banner {
@@ -64,16 +65,70 @@
     column-gap: 20vh;
 }
 
-.hero-pic img{
-    align-self: flex-start;
-    object-fit: none;
-    object-position: 50% -10%;
-    width: 80%;
-    position: relative;
-    border-radius: 50%;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border: 4px solid white;
+.d4v41 {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    border: 4px black solid;
+    background-image: url(../img/animated-bg.gif);
+}
+
+.name {
+    color: white;
+    font-family: "Sofia", sans-serif;
+    border-radius: 25px;
+    margin: 0;
+    margin-left: 68%;
+    margin-top: 2%;
+    font-size: 100px;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.description {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+
+.desc {
+    font-family: "Sofia", sans-serif;
+    color: white;
+}
+
+.description2 {
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+
+.desc2 {
+    font-family: "Sofia", sans-serif;
+    color: white;
 }
 
 .content-intro {
