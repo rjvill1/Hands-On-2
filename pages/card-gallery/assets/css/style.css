@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Basic';
+    text-decoration: 0;
 }
 
 .banner {
@@ -80,10 +81,18 @@
     justify-content: center;
 }
 
+.card1-container {
+    background-image: linear-gradient(rgba(98, 98, 98, 0.75), rgba(140, 62, 2, 0.75));
+}
+
 .card1 {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding-left: 33rem;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: center;
 }
 
@@ -108,9 +117,13 @@
 }
 
 .card2 {
+    padding-left: 33rem;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
     justify-content: center;
 }
 
@@ -141,16 +154,17 @@
     font-weight: 600;
 }
 
-.card2 h1 {
-    color: white;
-    padding: 0 20rem;
+.card3-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(84, 21, 2, 0.75))
 }
 
 .card3 {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
+    padding-left: 33rem;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .card3 h2 {
@@ -181,13 +195,16 @@
     padding: 20px;
     background-color: darkblue;
     border-radius: 15%;
-    width: fit-content;
+    width: 200px;
 }
 
 .card4 {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding-left: 33rem;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: center;
 }
 
@@ -197,9 +214,11 @@
     border-radius: 15%;
 }
 
-.card4 h1 {
+.card3-container h1 {
+    position: relative;
+    left: 35%;
     color: white;
-    padding: 0 20rem;
+    padding: 1rem 7rem;
 }
 
 .card4 h2 {
@@ -224,254 +243,186 @@
     padding: 20px;
     background-color: darkblue;
     border-radius: 15%;
-    width: fit-content;
+    width: 400px;
 }
 
-.card4 p:active {
+.card4 p:hover {
+    transition: .4s;
     border: 4px solid darkblue;
     background-color: orangered;
     color: rgb(0, 0, 0);
 }
 
-.card5 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
+.card5-container {
+    background-image: linear-gradient(rgba(1, 131, 113, 0.75), rgba(136, 136, 136, 0.75));
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.card5 h2 {
+.card5 {
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 780px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+
+.desc {
     font-family: "Sofia", sans-serif;
     color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card5 p {
-    font-family: "Sofia", sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(22, 168, 182);
-    padding: 20px;
-    background-color: rgb(249, 249, 249);
-    border-radius: 15%;
-    width: fit-content;
 }
 
 .card6 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 780px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
 }
 
 .card6 h1 {
     color: white;
-    padding: 0 20rem;
-}
-
-.card6 h2 {
-    font-family: "Sofia", sans-serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card6 p {
-    font-family: "Sofia", sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(22, 168, 182);
-    padding: 20px;
-    background-color: rgb(249, 249, 249);
-    border-radius: 15%;
-    width: fit-content;
+    padding: 1rem 7rem;
 }
 
 .card6 p:hover{
     transition: 0.3s;
-    font-size: 22px;
+    font-size: 35px;
+}
+
+.card7-container {
+    background-image: linear-gradient(rgba(209, 89, 8, 0.75), rgba(61, 98, 2, 0.75));
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .card7 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
-}
-
-.card7 h2 {
-    font-family: "Lobster", Sans-serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card7 p {
-    font-family: "Lobster", Sans-serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid orangered;
-    padding: 20px;
-    border-radius: 15%;
-    width: fit-content;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 780px;
+    font-size: 30px;
+    border: dotted;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
 }
 
 .card8 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 780px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
-.card8 h1 {
-    color: white;
-    padding: 0 20rem;
+.card8:hover {
+    transition: shake 1s ease-in-out;
+    animation-name: stop;
+    animation-duration: .5s;
 }
 
-.card8 h2 {
-    font-family: "Lobster", Sans-serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
+@keyframes shake{
+    ease-in-out
+    14%{
+        transform: translateX(15px);
+    }
+    16%{
+        transform: translateY(-15px);
+    }
+    30%{
+        transform: translateX(15px);
+    }
+    40%{
+        transform: translateY(15px);
+    }
+}
+@keyframes stop {
+    0%{
+        transform: rotate(0);;
+    }
 }
 
-.card8 p {
-    font-family: "Lobster", Sans-serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid orangered;
-    padding: 20px;
-    border-radius: 15%;
-    width: fit-content;
-}
-
-.card8 p:hover {
-    border-radius: 0;
-    transition: 0.5s;
-}
-
-.card8 p:hover:active{
-    transition: 0.2s;
-    font-size: 22px;
-    color: orangered;
-    background-color: rgb(0, 139, 25);
-}
-
-.h5-card1 {
-    width: 15%;
-    margin-left: 2rem;
-    top: -10px;
-    filter: drop-shadow(30px 10px 4px #120c35);
+.card9-container {
+    background-image: linear-gradient(rgba(18, 40, 73, 0.75), rgba(3, 7, 24, 0.75));
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .card9 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
-}
-
-.card9 h2 {
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card9 p {
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(3, 7, 85);
-    padding: 20px;
-    background-color: rgb(1, 1, 32);
-    width: fit-content;
-}
-
-.h5-card2 {
-    width: 25%;
-    margin-left: 2rem;
-    top: -10px;
-    filter: drop-shadow(30px 10px 4px #8b038b);
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 780px;
+    font-size: 30px;
+    border: 4px rgb(13, 10, 31) double;
+    background-color: rgb(17, 14, 52);
 }
 
 .card-10 {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 780px;
+    font-size: 30px;
+    transition: .5s;
 }
 
-.card-10 h1 {
-    color: white;
-    padding: 0 20rem;
-}
-
-.card-10 h2 {
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card-10 p {
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(3, 7, 85);
-    padding: 20px;
-    background-color: rgb(1, 1, 32);
-    width: fit-content;
-}
-
-.card-10 p:active {
-    filter: drop-shadow(30px 10px 4px rgb(1, 1, 32));
-    transition: 0.5s;
+.card-10 p:hover {
+    transition: .5s;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 780px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
 }
 
 .border {
     background-color: white;
 }
+
+.desc2 {
+    font-family: "Sofia", sans-serif;
+    color: white;
+}
+
