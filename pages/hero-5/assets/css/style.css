@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Basic';
+    text-decoration: 0;
 }
 
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(13, 0, 255, 0.75), rgba(17, 0, 253, 0.75)), url(../img/hero5-bg.jpg);
+    background-image: linear-gradient(rgba(18, 40, 73, 0.75), rgba(3, 7, 24, 0.75)), url(../img/hero5-bg.jpg);
     background-size: 70 vh, cover;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -55,137 +56,78 @@
     width: 100%;
 }
 
-.content {
-    width: 100%;
-    height: calc(100vh - 132px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 20vh;
+.mf {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    border: 4px black solid;
+    filter: sepia();
+    background-image: url(../img/mf-bg.jpg);
 }
 
-.hero-pic img{
-    filter: drop-shadow(30px 10px 4px black);
-    background-color: rgb(1, 1, 32);
-    margin-left: 1.5rem;
-    align-self: flex-start;
-    object-fit: none;
-    object-position: 50% -10%;
-    width: 80%;
-    position: relative;
-    border-radius: 0;
-     -moz-border-radius: 0;
-     -webkit-border-radius: 0;
-     border: 4px solid rgb(3, 7, 85);
-}
-
-.content-intro {
-    filter: drop-shadow(30px 10px 4px black);
-    margin-left: 2rem;
-}
-
-.content-intro h1 {
-    border: 4px solid rgb(3, 7, 85);
-    background-color: rgb(1, 1, 32);
-    padding: 10px 20px;
-    font-family: "Tangerine", serif;
-    font-size: 96px;
-    line-height: 106px;
+.name {
     color: white;
-    font-weight: 600;
-    margin-bottom: 2rem;
+    position: absolute;
+    z-index: 1;
+    font-family: "Sofia", sans-serif;
+    border-radius: 10px;
+    border: 4px black solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #120c35;
+    top: 70%;
+    margin: 0;
+    margin-left: 33%;
+    margin-top: 2%;
+    font-size: 100px;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
-.content-intro h3 {
-    font-family: "Tangerine", serif;
-    font-size: 53px;
-    line-height: 67px;
+.description {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+
+.desc {
+    font-family: "Sofia", sans-serif;
     color: white;
-    font-weight: 600;
-    display: block;
-    border: 4px solid rgb(3, 7, 85);
-    background-color: rgb(1, 1, 32);
-    padding: 10px 20px;
-    width: fit-content;
 }
 
-.card-container {
-    flex-direction: column;
-    margin-right: 2rem;
+.description2 {
+    position: absolute;
+    top: 30%;
+    left: 61%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
 }
 
-.card1 {
-    padding-bottom: 2rem;
-}
-
-.h5-card1 {
-    width: 15%;
-    margin-left: 2rem;
-    z-index: -1;
-    top: -10px;
-    filter: drop-shadow(30px 10px 4px #120c35);
-}
-
-.card1 h2 {
-    filter: drop-shadow(30px 10px 4px black);
-    font-family: "Tangerine", serif;
+.desc2 {
+    font-family: "Sofia", sans-serif;
     color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card1 p {
-    filter: drop-shadow(30px 10px 4px black);
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(3, 7, 85);
-    padding: 20px;
-    background-color: rgb(1, 1, 32);
-    width: fit-content;
-}
-
-.card2 {
-    padding-bottom: 2rem;
-}
-
-.h5-card2 {
-    width: 25%;
-    margin-left: 2rem;
-    z-index: -1;
-    top: -10px;
-    filter: drop-shadow(30px 10px 4px #8b038b);
-}
-
-.card2 h2 {
-    filter: drop-shadow(30px 10px 4px black);
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 26px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-.card2 p {
-    filter: drop-shadow(30px 10px 4px black);
-    font-family: "Tangerine", serif;
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 600;
-    margin-left: 2rem;
-    border: 4px solid rgb(3, 7, 85);
-    padding: 20px;
-    background-color: rgb(1, 1, 32);
-    width: fit-content;
 }
